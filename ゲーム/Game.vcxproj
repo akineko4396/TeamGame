@@ -1,0 +1,385 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug2|Win32">
+      <Configuration>Debug2</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\Git\00 BaseFrame\src\Data\DataManager.cpp" />
+    <ClCompile Include="..\Lib\YskLib\YsBulletPhysicsEngine.cpp" />
+    <ClCompile Include="..\Lib\YskLib\YsBillBoard.cpp" />
+    <ClCompile Include="..\Lib\YskLib\YsBullet_Joint.cpp" />
+    <ClCompile Include="..\Lib\YskLib\YsBullet_RigidBody.cpp" />
+    <ClCompile Include="..\Lib\YskLib\YsBullet_Shape.cpp" />
+    <ClCompile Include="..\Lib\YskLib\YsCamera.cpp" />
+    <ClCompile Include="..\Lib\YskLib\YsCsv.cpp" />
+    <ClCompile Include="..\Lib\YskLib\YsGeometryShader.cpp" />
+    <ClCompile Include="..\Lib\YskLib\YsLaser.cpp" />
+    <ClCompile Include="..\Lib\YskLib\YsUVAnimation.cpp" />
+    <ClCompile Include="..\Lib\YskLib\YsVec2.cpp" />
+    <ClCompile Include="..\Lib\YskLib\YsKeyframeAnimation.cpp" />
+    <ClCompile Include="..\Lib\YskLib\YsSound.cpp" />
+    <ClCompile Include="..\Lib\YskLib\YsDirectXGraphics.cpp" />
+    <ClCompile Include="..\Lib\YskLib\YsMatrix.cpp" />
+    <ClCompile Include="..\Lib\YskLib\YsSingleModel.cpp" />
+    <ClCompile Include="..\Lib\YskLib\YsMTRand.cpp" />
+    <ClCompile Include="..\Lib\YskLib\YsCollision.cpp" />
+    <ClCompile Include="..\Lib\YskLib\YsPixelShader.cpp" />
+    <ClCompile Include="..\Lib\YskLib\YsPolygon.cpp" />
+    <ClCompile Include="..\Lib\YskLib\YsQuat.cpp" />
+    <ClCompile Include="..\Lib\YskLib\YsGameModel.cpp" />
+    <ClCompile Include="..\Lib\YskLib\YsModelObject.cpp" />
+    <ClCompile Include="..\Lib\YskLib\YsSprite.cpp" />
+    <ClCompile Include="..\Lib\YskLib\YsTexture.cpp" />
+    <ClCompile Include="..\Lib\YskLib\YsVec3.cpp" />
+    <ClCompile Include="..\Lib\YskLib\YsVec4.cpp" />
+    <ClCompile Include="..\Lib\YskLib\YsVertexShader.cpp" />
+    <ClCompile Include="..\Lib\YskLib\YsDebugWnd.cpp" />
+    <ClCompile Include="..\Lib\YskLib\YsHelper.cpp" />
+    <ClCompile Include="..\Lib\YskLib\YsMesh.cpp" />
+    <ClCompile Include="..\Lib\YskLib\YsResourceStorage.cpp" />
+    <ClCompile Include="..\Lib\YskLib\YsXEDLoader.cpp" />
+    <ClCompile Include="..\Lib\YskLib\YsXFileLoader.cpp" />
+    <ClCompile Include="..\Lib\YskLib\YsStates.cpp" />
+    <ClCompile Include="src\GameLib\GameLib.cpp" />
+    <ClCompile Include="src\GameResource\GameResource.cpp" />
+    <ClCompile Include="src\Game\Edit\EditMode.cpp" />
+    <ClCompile Include="src\Game\Edit\Put.cpp" />
+    <ClCompile Include="src\Game\GameAI\CharacterAI.cpp" />
+    <ClCompile Include="src\Game\GameAI\NavigationAI.cpp" />
+    <ClCompile Include="src\Game\GameCamera.cpp" />
+    <ClCompile Include="src\Game\GameWorld\Character\Box\Box.cpp" />
+    <ClCompile Include="src\Game\GameWorld\Character\CharacterBase.cpp" />
+    <ClCompile Include="src\Game\GameWorld\Character\Map\Map.cpp" />
+    <ClCompile Include="src\Game\GameWorld\Character\Player\Player.cpp" />
+    <ClCompile Include="src\Game\GameWorld\Character\Spring\Spring.cpp" />
+    <ClCompile Include="src\Game\GameWorld\Character\Stairs\Stairs.cpp" />
+    <ClCompile Include="src\Game\GameWorld\Character\Water\Water.cpp" />
+    <ClCompile Include="src\Game\GameWorld\CollisionEngine\CollisionEngine.cpp" />
+    <ClCompile Include="src\Game\GameWorld\Effect\Effect.cpp" />
+    <ClCompile Include="src\Game\GameWorld\Effect\Plode\Plode.cpp" />
+    <ClCompile Include="src\Game\GameWorld\GameWorld.cpp" />
+    <ClCompile Include="src\Game\GameWorld\Item\Hammer\Hammer.cpp" />
+    <ClCompile Include="src\Game\GameWorld\Item\Weapon.cpp" />
+    <ClCompile Include="src\Game\GameWorld\Stage\Stage1\Stage1.cpp" />
+    <ClCompile Include="src\Game\GameWorld\Stage\Stage2\Stage2.cpp" />
+    <ClCompile Include="src\Game\Scene\GameScene\GameScene.cpp" />
+    <ClCompile Include="src\Game\Scene\Scene.cpp" />
+    <ClCompile Include="src\Game\Scene\TitleScene\TitleScene.cpp" />
+    <ClCompile Include="src\Game\Task\TaskManager.cpp" />
+    <ClCompile Include="src\Input\CInput.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\Pch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug2|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="src\Shader\EasyShader.cpp" />
+    <ClCompile Include="src\Shader\LightManager.cpp" />
+    <ClCompile Include="src\Shader\SampleShader.cpp" />
+    <ClCompile Include="src\Shader\ShaderManager.cpp" />
+    <ClCompile Include="src\Shader\SpriteShader.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\Git\00 BaseFrame\src\Data\DataManager.h" />
+    <ClInclude Include="..\Lib\YskLib\YsBulletPhysicsEngine.h" />
+    <ClInclude Include="..\Lib\YskLib\YsBillBoard.h" />
+    <ClInclude Include="..\Lib\YskLib\YsBullet_Joint.h" />
+    <ClInclude Include="..\Lib\YskLib\YsBullet_RigidBody.h" />
+    <ClInclude Include="..\Lib\YskLib\YsBullet_Shape.h" />
+    <ClInclude Include="..\Lib\YskLib\YsCamera.h" />
+    <ClInclude Include="..\Lib\YskLib\YsConstantBuffer.h" />
+    <ClInclude Include="..\Lib\YskLib\YsCsv.h" />
+    <ClInclude Include="..\Lib\YskLib\YsDataStorage.inl" />
+    <ClInclude Include="..\Lib\YskLib\YsGeometryShader.h" />
+    <ClInclude Include="..\Lib\YskLib\YsLaser.h" />
+    <ClInclude Include="..\Lib\YskLib\YsLocking.h" />
+    <ClInclude Include="..\Lib\YskLib\YsUVAnimation.h" />
+    <ClInclude Include="..\Lib\YskLib\YsVec2.h" />
+    <ClInclude Include="..\Lib\YskLib\YsVec4.h" />
+    <ClInclude Include="..\Lib\YskLib\YsFpsControl.h" />
+    <ClInclude Include="..\Lib\YskLib\YsKeyframeAnimation.h" />
+    <ClInclude Include="..\Lib\YskLib\YsSound.h" />
+    <ClInclude Include="..\Lib\YskLib\YsDirectXGraphics.h" />
+    <ClInclude Include="..\Lib\YskLib\YsMatrix.h" />
+    <ClInclude Include="..\Lib\YskLib\YsSingleModel.h" />
+    <ClInclude Include="..\Lib\YskLib\YsMTRand.h" />
+    <ClInclude Include="..\Lib\YskLib\YsCollision.h" />
+    <ClInclude Include="..\Lib\YskLib\YsPixelShader.h" />
+    <ClInclude Include="..\Lib\YskLib\YsPolygon.h" />
+    <ClInclude Include="..\Lib\YskLib\YsQuat.h" />
+    <ClInclude Include="..\Lib\YskLib\YsGameModel.h" />
+    <ClInclude Include="..\Lib\YskLib\YsModelObject.h" />
+    <ClInclude Include="..\Lib\YskLib\YsSprite.h" />
+    <ClInclude Include="..\Lib\YskLib\YsTexture.h" />
+    <ClInclude Include="..\Lib\YskLib\YsVec3.h" />
+    <ClInclude Include="..\Lib\YskLib\YsVertexShader.h" />
+    <ClInclude Include="..\Lib\YskLib\YsDataStorage.h" />
+    <ClInclude Include="..\Lib\YskLib\YsDebugWnd.h" />
+    <ClInclude Include="..\Lib\YskLib\YsHelper.h" />
+    <ClInclude Include="..\Lib\YskLib\YsMesh.h" />
+    <ClInclude Include="..\Lib\YskLib\YsResourceStorage.h" />
+    <ClInclude Include="..\Lib\YskLib\YsXEDLoader.h" />
+    <ClInclude Include="..\Lib\YskLib\YsXFileLoader.h" />
+    <ClInclude Include="..\Lib\YskLib\YsStates.h" />
+    <ClInclude Include="..\Lib\YskLib\YsVertexType.h" />
+    <ClInclude Include="..\Lib\YskLib\YskLib.h" />
+    <ClInclude Include="src\Data\FilePath.h" />
+    <ClInclude Include="src\GameLib\GameLib.h" />
+    <ClInclude Include="src\GameResource\GameResource.h" />
+    <ClInclude Include="src\Game\Edit\EditMode.h" />
+    <ClInclude Include="src\Game\Edit\Put.h" />
+    <ClInclude Include="src\Game\GameAI\CharacterAI.h" />
+    <ClInclude Include="src\Game\GameAI\NavigationAI.h" />
+    <ClInclude Include="src\Game\GameCamera.h" />
+    <ClInclude Include="src\Game\GameWorld\Character\Box\Box.h" />
+    <ClInclude Include="src\Game\GameWorld\Character\CharacterBase.h" />
+    <ClInclude Include="src\Game\GameWorld\Character\Map\Map.h" />
+    <ClInclude Include="src\Game\GameWorld\Character\Player\Player.h" />
+    <ClInclude Include="src\Game\GameWorld\Character\Spring\Spring.h" />
+    <ClInclude Include="src\Game\GameWorld\Character\Stairs\Stairs.h" />
+    <ClInclude Include="src\Game\GameWorld\Character\Water\Water.h" />
+    <ClInclude Include="src\Game\GameWorld\CollisionEngine\CollisionEngine.h" />
+    <ClInclude Include="src\Game\GameWorld\Effect\Effect.h" />
+    <ClInclude Include="src\Game\GameWorld\Effect\Plode\Plode.h" />
+    <ClInclude Include="src\Game\GameWorld\GameKey.h" />
+    <ClInclude Include="src\Game\GameWorld\GameWorld.h" />
+    <ClInclude Include="src\Game\GameWorld\Item\Hammer\Hammer.h" />
+    <ClInclude Include="src\Game\GameWorld\Item\Weapon.h" />
+    <ClInclude Include="src\Game\GameWorld\Stage\Stage1\Stage1.h" />
+    <ClInclude Include="src\Game\GameWorld\Stage\Stage2\Stage2.h" />
+    <ClInclude Include="src\Game\GameWorld\Stage\StageBase.h" />
+    <ClInclude Include="src\Game\Scene\GameScene\GameScene.h" />
+    <ClInclude Include="src\Game\Scene\Scene.h" />
+    <ClInclude Include="src\Game\Scene\TitleScene\TitleScene.h" />
+    <ClInclude Include="src\Game\Task\TaskManager.h" />
+    <ClInclude Include="src\Input\CInput.h" />
+    <ClInclude Include="src\main.h" />
+    <ClInclude Include="src\Pch.h" />
+    <ClInclude Include="src\Shader\EasyShader.h" />
+    <ClInclude Include="src\Shader\LightManager.h" />
+    <ClInclude Include="src\Shader\SampleShader.h" />
+    <ClInclude Include="src\Shader\ShaderManager.h" />
+    <ClInclude Include="src\Shader\SpriteShader.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Lib\YskLib\YsConstantBuffer.inl" />
+    <None Include="Shader\Sample\Common.hlsl">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug2|Win32'">
+      </ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </ExcludedFromBuild>
+      <FileType>Document</FileType>
+    </None>
+    <None Include="Shader\Easy.hlsl">
+      <FileType>Document</FileType>
+    </None>
+    <None Include="Shader\Sample\Outline.hlsl">
+      <FileType>Document</FileType>
+    </None>
+    <None Include="Shader\Sample\Effect.hlsl">
+      <FileType>Document</FileType>
+    </None>
+    <None Include="Shader\Sample\Model.hlsl">
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)%(Filename).cso</ObjectFileOutput>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </ShaderType>
+      <EnableDebuggingInformation Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</EnableDebuggingInformation>
+      <DisableOptimizations Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</DisableOptimizations>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug2|Win32'">
+      </ShaderType>
+      <FileType>Document</FileType>
+    </None>
+    <None Include="Shader\Sprite.hlsl">
+      <FileType>Document</FileType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Shader\Sample\_説明.txt" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{0F06FE08-688B-490A-AB0E-7A85CF6B8649}</ProjectGuid>
+    <RootNamespace>Game</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectName>Game</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug2|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug2|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug2|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug2|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug2|Win32'">false</LinkIncremental>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Program Files\Microsoft SDKs\Windows\v7.0A\Include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>.\;src;..\Common;..\Lib;..\Lib\YskLib;..\Lib\Ogg Vorbis SDK\include;..\Lib\DirectX SDK\Include;..\Lib\BulletPhysicsEngine\src;..\Lib\DirectXTK\Inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;DEBUG_DIRECT3D11;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>Pch.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <ForcedIncludeFiles>Pch.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)Project.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+      <ImageHasSafeExceptionHandlers />
+      <AdditionalOptions>/nodefaultlib:"LIBCMT"
+ %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalLibraryDirectories>..\Lib;..\Lib\DirectX SDK\Lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <FxCompile>
+      <ShaderModel>5.0</ShaderModel>
+      <DisableOptimizations>true</DisableOptimizations>
+      <EnableDebuggingInformation>true</EnableDebuggingInformation>
+      <EntryPointName>VS</EntryPointName>
+    </FxCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <OmitFramePointers>true</OmitFramePointers>
+      <AdditionalIncludeDirectories>.\;src;..\Common;..\Lib;..\Lib\YskLib;..\Lib\Ogg Vorbis SDK\include;..\Lib\DirectX SDK\Include;..\Lib\BulletPhysicsEngine\src;..\Lib\DirectXTK\Inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;OPTIMIZESHADER;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>Pch.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ForcedIncludeFiles>Pch.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <ProgramDataBaseFileName />
+    </ClCompile>
+    <Link>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalLibraryDirectories>..\Lib;..\Lib\DirectX SDK\Lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <FxCompile>
+      <EntryPointName>VS</EntryPointName>
+    </FxCompile>
+    <FxCompile>
+      <ShaderModel>5.0</ShaderModel>
+    </FxCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug2|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <IntrinsicFunctions>false</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Neither</FavorSizeOrSpeed>
+      <OmitFramePointers>false</OmitFramePointers>
+      <AdditionalIncludeDirectories>.\;src;..\Common;..\Lib;..\Lib\YskLib;..\Lib\Ogg Vorbis SDK\include;..\Lib\DirectX SDK\Include;..\Lib\BulletPhysicsEngine\src;..\Lib\DirectXTK\Inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>Pch.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <ForcedIncludeFiles>Pch.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalLibraryDirectories>..\Lib;..\Lib\DirectX SDK\Lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <FxCompile>
+      <EntryPointName>VS</EntryPointName>
+    </FxCompile>
+    <FxCompile>
+      <ShaderModel>5.0</ShaderModel>
+    </FxCompile>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

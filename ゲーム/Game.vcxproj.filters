@@ -1,0 +1,625 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{80d0a5a9-6779-4863-bede-cc22a4986dc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib">
+      <UniqueIdentifier>{da371b7a-88e2-4d08-8d17-16ba831697f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\YskLib">
+      <UniqueIdentifier>{a2a64b8f-ed93-4a90-b913-ddadd0f76d66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Shader">
+      <UniqueIdentifier>{70fddce1-7d60-432d-9399-031819063808}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Input">
+      <UniqueIdentifier>{bb8c1c0c-ef95-40b6-a242-dac580a57141}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\YskLib\Math">
+      <UniqueIdentifier>{89d25199-f07b-47f6-9b39-7105ba8e3891}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\YskLib\Debug">
+      <UniqueIdentifier>{abc6a153-fb66-4f00-9834-a27feec29019}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\YskLib\Graphic">
+      <UniqueIdentifier>{d2474c88-33bb-40fa-af0a-a85efed2b0ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\YskLib\Graphic\Model">
+      <UniqueIdentifier>{b03a3d7b-c3ee-4d82-9118-58dee53a7d67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{187bbd3b-c64b-4431-b60b-e51bdd534421}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\YskLib\Physics">
+      <UniqueIdentifier>{eeff10c9-8ab7-47d7-9e98-272a3a16496e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Game">
+      <UniqueIdentifier>{2841f2a2-e934-4b93-b53b-a0cad9ecb8bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Game\Scene">
+      <UniqueIdentifier>{589ca8bd-a195-433c-a9a9-978dd148f412}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Game\Task">
+      <UniqueIdentifier>{cd60ae0e-2344-4081-b332-94ada3ab7969}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Game\Scene\TitleScene">
+      <UniqueIdentifier>{293000c3-f331-4eea-b4a7-dfe2f122ad39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Game\Scene\GameScene">
+      <UniqueIdentifier>{50c54e42-2cd8-43f3-b459-7a95f44976a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\YskLib\Sound">
+      <UniqueIdentifier>{5a9fc501-febb-4181-aa90-606f245d3013}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\Sample">
+      <UniqueIdentifier>{4937172a-a9f9-4cce-be29-95abffbd4095}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\YskLib\Graphic\Model\Mesh">
+      <UniqueIdentifier>{329caedf-2735-4dde-8806-f0c559e6d205}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\GameResource">
+      <UniqueIdentifier>{e0c227b0-7331-49ce-bf96-8305a24a3042}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\YskLib\ResourceManage">
+      <UniqueIdentifier>{a09d8329-f18e-48f8-84b2-d8a6e430e9f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\YskLib\Animation">
+      <UniqueIdentifier>{5942b24f-3f80-44d4-a257-ec99778725c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\YskLib\Utility">
+      <UniqueIdentifier>{dcb43fd2-b905-42a6-b5ef-191dcf0e96e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\YskLib\Collision">
+      <UniqueIdentifier>{183fe776-0204-4e88-8fa2-017dc98b9243}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\YskLib\Graphic\Model\Mesh\Loader">
+      <UniqueIdentifier>{8e48d945-1389-4b46-bdd0-fac0e01c6844}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\YskLib\Shader">
+      <UniqueIdentifier>{1de576d6-679d-49c4-88ae-74dfa60230a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Game\GameWorld">
+      <UniqueIdentifier>{21ace7c6-3dea-4bcd-99b4-d52428db3d54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Game\GameWorld\Character">
+      <UniqueIdentifier>{e3b37883-1eaf-4c0e-80c9-fa6201091fe7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Game\GameWorld\Stage">
+      <UniqueIdentifier>{792ef867-e4a7-4a2d-91fd-1b8dc4dd6e1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Game\GameWorld\CollisionEngine">
+      <UniqueIdentifier>{b2be35ab-5c9f-4c2a-bb9c-3c71efb90d74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Game\GameWorld\Character\Player">
+      <UniqueIdentifier>{d2eba536-3e1d-492f-91cb-d79291407703}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Game\GameWorld\Character\Box">
+      <UniqueIdentifier>{31735a9b-db18-4164-9aaa-4d92acbf744a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Game\GameWorld\Stage\Stage1">
+      <UniqueIdentifier>{e6494c9c-9d20-4d6e-9644-0d62aada5f78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Game\GameWorld\Stage\Stage2">
+      <UniqueIdentifier>{3e9f65f2-2903-4261-8a23-0730588ab262}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Game\GameWorld\Character\Map">
+      <UniqueIdentifier>{0d33317a-619f-4dc5-93ea-774d3cad81ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Game\Edit">
+      <UniqueIdentifier>{497f2ee7-d143-42d1-b144-dd44cfd58059}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Game\GameWorld\Effect">
+      <UniqueIdentifier>{c4ee9e99-5b02-4315-bf56-fdf65d709df7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Game\GameWorld\Item">
+      <UniqueIdentifier>{f06e87a0-0151-4357-9a6b-06d33638d94c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Game\GameWorld\Effect\Plode">
+      <UniqueIdentifier>{de55c76b-e016-4abb-bc0e-0df4bfd7380b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Game\GameWorld\Character\Spring">
+      <UniqueIdentifier>{58e93374-e49d-447b-929d-28fae6ce6b89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Game\GameWorld\Item\Hammer">
+      <UniqueIdentifier>{bfbfb26a-8b8b-491a-8580-033ed9034e6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Game\GameWorld\Character\Water">
+      <UniqueIdentifier>{6ba28ca9-8875-496a-b46d-4ed7a7913a4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\GameLib">
+      <UniqueIdentifier>{a70d3ec3-9ce8-4468-a79f-512cdc3f2f72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Game\GameWorld\Character\Stairs">
+      <UniqueIdentifier>{6203e46a-37da-4cc8-a5d9-00be6b0ddbdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Data">
+      <UniqueIdentifier>{d90d84e9-e2c2-47e0-bc9b-28fd37fadeb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Game\GameAI">
+      <UniqueIdentifier>{b92ab2a4-edd3-4e5c-9e11-ea4339291af5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Shader\ShaderManager.cpp">
+      <Filter>src\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Input\CInput.cpp">
+      <Filter>src\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Pch.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Shader\SampleShader.cpp">
+      <Filter>src\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Scene\Scene.cpp">
+      <Filter>src\Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Shader\SpriteShader.cpp">
+      <Filter>src\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameResource\GameResource.cpp">
+      <Filter>src\GameResource</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Shader\EasyShader.cpp">
+      <Filter>src\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Shader\LightManager.cpp">
+      <Filter>src\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\GameCamera.cpp">
+      <Filter>src\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Lib\YskLib\YsPolygon.cpp">
+      <Filter>Lib\YskLib\Graphic\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Lib\YskLib\YsSingleModel.cpp">
+      <Filter>Lib\YskLib\Graphic\Model\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Lib\YskLib\YsModelObject.cpp">
+      <Filter>Lib\YskLib\Graphic\Model\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Lib\YskLib\YsGameModel.cpp">
+      <Filter>Lib\YskLib\Graphic\Model\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Lib\YskLib\YsBillBoard.cpp">
+      <Filter>Lib\YskLib\Graphic\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Lib\YskLib\YsLaser.cpp">
+      <Filter>Lib\YskLib\Graphic\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Lib\YskLib\YsGeometryShader.cpp">
+      <Filter>Lib\YskLib\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Lib\YskLib\YsVertexShader.cpp">
+      <Filter>Lib\YskLib\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Lib\YskLib\YsPixelShader.cpp">
+      <Filter>Lib\YskLib\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Lib\YskLib\YsSprite.cpp">
+      <Filter>Lib\YskLib\Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Lib\YskLib\YsTexture.cpp">
+      <Filter>Lib\YskLib\Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Lib\YskLib\YsStates.cpp">
+      <Filter>Lib\YskLib\Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Lib\YskLib\YsResourceStorage.cpp">
+      <Filter>Lib\YskLib\ResourceManage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Lib\YskLib\YsDebugWnd.cpp">
+      <Filter>Lib\YskLib\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Lib\YskLib\YsBulletPhysicsEngine.cpp">
+      <Filter>Lib\YskLib\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Lib\YskLib\YsSound.cpp">
+      <Filter>Lib\YskLib\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Lib\YskLib\YsMatrix.cpp">
+      <Filter>Lib\YskLib\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Lib\YskLib\YsVec3.cpp">
+      <Filter>Lib\YskLib\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Lib\YskLib\YsVec2.cpp">
+      <Filter>Lib\YskLib\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Lib\YskLib\YsQuat.cpp">
+      <Filter>Lib\YskLib\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Lib\YskLib\YsDirectXGraphics.cpp">
+      <Filter>Lib\YskLib\Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Lib\YskLib\YsVec4.cpp">
+      <Filter>Lib\YskLib\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Lib\YskLib\YsMesh.cpp">
+      <Filter>Lib\YskLib\Graphic\Model\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Lib\YskLib\YsKeyframeAnimation.cpp">
+      <Filter>Lib\YskLib\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Lib\YskLib\YsUVAnimation.cpp">
+      <Filter>Lib\YskLib\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Lib\YskLib\YsMTRand.cpp">
+      <Filter>Lib\YskLib\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Lib\YskLib\YsCollision.cpp">
+      <Filter>Lib\YskLib\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Lib\YskLib\YsHelper.cpp">
+      <Filter>Lib\YskLib\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Lib\YskLib\YsCsv.cpp">
+      <Filter>Lib\YskLib\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Lib\YskLib\YsXEDLoader.cpp">
+      <Filter>Lib\YskLib\Graphic\Model\Mesh\Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Lib\YskLib\YsXFileLoader.cpp">
+      <Filter>Lib\YskLib\Graphic\Model\Mesh\Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Lib\YskLib\YsCamera.cpp">
+      <Filter>Lib\YskLib\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Task\TaskManager.cpp">
+      <Filter>src\Game\Task</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Scene\TitleScene\TitleScene.cpp">
+      <Filter>src\Game\Scene\TitleScene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Scene\GameScene\GameScene.cpp">
+      <Filter>src\Game\Scene\GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Lib\YskLib\YsBullet_RigidBody.cpp">
+      <Filter>Lib\YskLib\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Lib\YskLib\YsBullet_Shape.cpp">
+      <Filter>Lib\YskLib\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Lib\YskLib\YsBullet_Joint.cpp">
+      <Filter>Lib\YskLib\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\GameWorld\GameWorld.cpp">
+      <Filter>src\Game\GameWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\GameWorld\Character\CharacterBase.cpp">
+      <Filter>src\Game\GameWorld\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\GameWorld\CollisionEngine\CollisionEngine.cpp">
+      <Filter>src\Game\GameWorld\CollisionEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\GameWorld\Character\Player\Player.cpp">
+      <Filter>src\Game\GameWorld\Character\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\GameWorld\Character\Box\Box.cpp">
+      <Filter>src\Game\GameWorld\Character\Box</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\GameWorld\Stage\Stage1\Stage1.cpp">
+      <Filter>src\Game\GameWorld\Stage\Stage1</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\GameWorld\Stage\Stage2\Stage2.cpp">
+      <Filter>src\Game\GameWorld\Stage\Stage2</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\GameWorld\Character\Map\Map.cpp">
+      <Filter>src\Game\GameWorld\Character\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Edit\EditMode.cpp">
+      <Filter>src\Game\Edit</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Edit\Put.cpp">
+      <Filter>src\Game\Edit</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\GameWorld\Character\Spring\Spring.cpp">
+      <Filter>src\Game\GameWorld\Character\Spring</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\GameWorld\Effect\Effect.cpp">
+      <Filter>src\Game\GameWorld\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\GameWorld\Item\Weapon.cpp">
+      <Filter>src\Game\GameWorld\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\GameWorld\Effect\Plode\Plode.cpp">
+      <Filter>src\Game\GameWorld\Effect\Plode</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\GameWorld\Item\Hammer\Hammer.cpp">
+      <Filter>src\Game\GameWorld\Item\Hammer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\GameWorld\Character\Water\Water.cpp">
+      <Filter>src\Game\GameWorld\Character\Water</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameLib\GameLib.cpp">
+      <Filter>src\GameLib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\GameWorld\Character\Stairs\Stairs.cpp">
+      <Filter>src\Game\GameWorld\Character\Stairs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Git\00 BaseFrame\src\Data\DataManager.cpp">
+      <Filter>src\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\GameAI\NavigationAI.cpp">
+      <Filter>src\Game\GameAI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\GameAI\CharacterAI.cpp">
+      <Filter>src\Game\GameAI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Lib\YskLib\YskLib.h">
+      <Filter>Lib\YskLib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Shader\ShaderManager.h">
+      <Filter>src\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Input\CInput.h">
+      <Filter>src\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="src\main.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Pch.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Shader\SampleShader.h">
+      <Filter>src\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Scene\Scene.h">
+      <Filter>src\Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Shader\SpriteShader.h">
+      <Filter>src\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameResource\GameResource.h">
+      <Filter>src\GameResource</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Shader\EasyShader.h">
+      <Filter>src\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Shader\LightManager.h">
+      <Filter>src\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\GameCamera.h">
+      <Filter>src\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Lib\YskLib\YsPolygon.h">
+      <Filter>Lib\YskLib\Graphic\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Lib\YskLib\YsSingleModel.h">
+      <Filter>Lib\YskLib\Graphic\Model\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Lib\YskLib\YsModelObject.h">
+      <Filter>Lib\YskLib\Graphic\Model\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Lib\YskLib\YsGameModel.h">
+      <Filter>Lib\YskLib\Graphic\Model\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Lib\YskLib\YsBillBoard.h">
+      <Filter>Lib\YskLib\Graphic\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Lib\YskLib\YsLaser.h">
+      <Filter>Lib\YskLib\Graphic\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Lib\YskLib\YsVertexType.h">
+      <Filter>Lib\YskLib\Graphic\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Lib\YskLib\YsConstantBuffer.h">
+      <Filter>Lib\YskLib\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Lib\YskLib\YsGeometryShader.h">
+      <Filter>Lib\YskLib\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Lib\YskLib\YsVertexShader.h">
+      <Filter>Lib\YskLib\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Lib\YskLib\YsPixelShader.h">
+      <Filter>Lib\YskLib\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Lib\YskLib\YsSprite.h">
+      <Filter>Lib\YskLib\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Lib\YskLib\YsTexture.h">
+      <Filter>Lib\YskLib\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Lib\YskLib\YsStates.h">
+      <Filter>Lib\YskLib\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Lib\YskLib\YsResourceStorage.h">
+      <Filter>Lib\YskLib\ResourceManage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Lib\YskLib\YsDataStorage.h">
+      <Filter>Lib\YskLib\ResourceManage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Lib\YskLib\YsDebugWnd.h">
+      <Filter>Lib\YskLib\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Lib\YskLib\YsBulletPhysicsEngine.h">
+      <Filter>Lib\YskLib\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Lib\YskLib\YsSound.h">
+      <Filter>Lib\YskLib\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Lib\YskLib\YsMatrix.h">
+      <Filter>Lib\YskLib\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Lib\YskLib\YsVec3.h">
+      <Filter>Lib\YskLib\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Lib\YskLib\YsVec2.h">
+      <Filter>Lib\YskLib\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Lib\YskLib\YsVec4.h">
+      <Filter>Lib\YskLib\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Lib\YskLib\YsQuat.h">
+      <Filter>Lib\YskLib\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Lib\YskLib\YsDirectXGraphics.h">
+      <Filter>Lib\YskLib\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Lib\YskLib\YsMesh.h">
+      <Filter>Lib\YskLib\Graphic\Model\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Lib\YskLib\YsDataStorage.inl">
+      <Filter>Lib\YskLib\ResourceManage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Lib\YskLib\YsKeyframeAnimation.h">
+      <Filter>Lib\YskLib\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Lib\YskLib\YsUVAnimation.h">
+      <Filter>Lib\YskLib\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Lib\YskLib\YsFpsControl.h">
+      <Filter>Lib\YskLib\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Lib\YskLib\YsLocking.h">
+      <Filter>Lib\YskLib\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Lib\YskLib\YsMTRand.h">
+      <Filter>Lib\YskLib\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Lib\YskLib\YsCollision.h">
+      <Filter>Lib\YskLib\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Lib\YskLib\YsHelper.h">
+      <Filter>Lib\YskLib\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Lib\YskLib\YsCsv.h">
+      <Filter>Lib\YskLib\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Lib\YskLib\YsXEDLoader.h">
+      <Filter>Lib\YskLib\Graphic\Model\Mesh\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Lib\YskLib\YsXFileLoader.h">
+      <Filter>Lib\YskLib\Graphic\Model\Mesh\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Lib\YskLib\YsCamera.h">
+      <Filter>Lib\YskLib\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Task\TaskManager.h">
+      <Filter>src\Game\Task</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Scene\TitleScene\TitleScene.h">
+      <Filter>src\Game\Scene\TitleScene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Scene\GameScene\GameScene.h">
+      <Filter>src\Game\Scene\GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Lib\YskLib\YsBullet_Shape.h">
+      <Filter>Lib\YskLib\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Lib\YskLib\YsBullet_RigidBody.h">
+      <Filter>Lib\YskLib\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Lib\YskLib\YsBullet_Joint.h">
+      <Filter>Lib\YskLib\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\GameWorld\GameWorld.h">
+      <Filter>src\Game\GameWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\GameWorld\GameKey.h">
+      <Filter>src\Game\GameWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\GameWorld\Character\CharacterBase.h">
+      <Filter>src\Game\GameWorld\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\GameWorld\Stage\StageBase.h">
+      <Filter>src\Game\GameWorld\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\GameWorld\CollisionEngine\CollisionEngine.h">
+      <Filter>src\Game\GameWorld\CollisionEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\GameWorld\Character\Player\Player.h">
+      <Filter>src\Game\GameWorld\Character\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\GameWorld\Character\Box\Box.h">
+      <Filter>src\Game\GameWorld\Character\Box</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\GameWorld\Stage\Stage1\Stage1.h">
+      <Filter>src\Game\GameWorld\Stage\Stage1</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\GameWorld\Stage\Stage2\Stage2.h">
+      <Filter>src\Game\GameWorld\Stage\Stage2</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\GameWorld\Character\Map\Map.h">
+      <Filter>src\Game\GameWorld\Character\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Edit\EditMode.h">
+      <Filter>src\Game\Edit</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Edit\Put.h">
+      <Filter>src\Game\Edit</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\GameWorld\Character\Spring\Spring.h">
+      <Filter>src\Game\GameWorld\Character\Spring</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\GameWorld\Effect\Effect.h">
+      <Filter>src\Game\GameWorld\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\GameWorld\Item\Weapon.h">
+      <Filter>src\Game\GameWorld\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\GameWorld\Effect\Plode\Plode.h">
+      <Filter>src\Game\GameWorld\Effect\Plode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\GameWorld\Item\Hammer\Hammer.h">
+      <Filter>src\Game\GameWorld\Item\Hammer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\GameWorld\Character\Water\Water.h">
+      <Filter>src\Game\GameWorld\Character\Water</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameLib\GameLib.h">
+      <Filter>src\GameLib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\GameWorld\Character\Stairs\Stairs.h">
+      <Filter>src\Game\GameWorld\Character\Stairs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Git\00 BaseFrame\src\Data\DataManager.h">
+      <Filter>src\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Data\FilePath.h">
+      <Filter>src\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\GameAI\CharacterAI.h">
+      <Filter>src\Game\GameAI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\GameAI\NavigationAI.h">
+      <Filter>src\Game\GameAI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shader\Sample\Common.hlsl">
+      <Filter>Shader\Sample</Filter>
+    </None>
+    <None Include="..\Lib\YskLib\YsConstantBuffer.inl">
+      <Filter>Lib\YskLib\Shader</Filter>
+    </None>
+    <None Include="Shader\Sample\Outline.hlsl">
+      <Filter>Shader\Sample</Filter>
+    </None>
+    <None Include="Shader\Easy.hlsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Shader\Sprite.hlsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Shader\Sample\Effect.hlsl">
+      <Filter>Shader\Sample</Filter>
+    </None>
+    <None Include="Shader\Sample\Model.hlsl">
+      <Filter>Shader\Sample</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Shader\Sample\_説明.txt">
+      <Filter>Shader\Sample</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
